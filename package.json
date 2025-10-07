@@ -1,6 +1,6 @@
 {
       "homepage": "https://emmitC.github.io/VitaRoot",
-      "name": "VITAROOT",
+      "name": "VitaRoot",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
@@ -55,6 +55,8 @@
       },
       "scripts": {
             "start": "vite",
+            "predeploy": "npm run build",
+            "deploy": "main -d build",
             "dev": "vite",
             "build": "vite build"
       }
