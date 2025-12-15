@@ -64,11 +64,11 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-gray-300">
                 <Mail className="w-5 h-5 text-green-500" />
-                <span>hello@vitaroot.com</span>
+                <span>vitaroot@outlook.com</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
                 <Phone className="w-5 h-5 text-green-500" />
-                <span>1-800-DETOX-NOW</span>
+                <span>+256 765-829-806</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
                 <MapPin className="w-5 h-5 text-green-500" />
@@ -172,7 +172,7 @@ export function Footer() {
           </div>
           
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-400">
-            <span>🌱 Certified Organic</span>
+            <span>🌱 100% Organic</span>
             <span>✨ Premium Quality</span>
             {/* <span>🚚 Free Shipping</span> */}
             <span>💚 Carbon Neutral</span>

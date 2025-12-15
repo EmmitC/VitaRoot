@@ -73,7 +73,7 @@ export function Hero() {
           <div className="relative">
             <div className="relative z-10">
               <ImageWithFallback
-                src="./hero-juice.jpg"
+                src="./citrus_charge.jpg"
                 alt="Premium wellness drinks"
                 className="w-full h-[600px] object-cover rounded-3xl shadow-2xl"
               />

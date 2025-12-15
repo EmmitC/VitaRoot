@@ -32,8 +32,8 @@ export function Newsletter() {
             <CardContent className="p-12">
               <div className="text-center mb-8">
                 <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-                  Join the Wellness
-                  <span className="block text-green-100">Revolution</span>
+                  Give Your Body the care it 
+                  <span className="block text-green-100">Deserves</span>
                 </h2>
                 <p className="text-xl text-green-100 max-w-2xl mx-auto leading-relaxed">
                   Get exclusive access to new products, wellness tips, and special offers. 
@@ -48,14 +48,14 @@ export function Newsletter() {
                     <span className="text-2xl">🎁</span>
                   </div>
                   <h3 className="font-semibold text-white mb-2">Exclusive Offers</h3>
-                  <p className="text-green-100 text-sm">First access to sales and new product launches</p>
+                  <p className="text-green-100 text-sm">Secure your Product as soon as its launched</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                     <span className="text-2xl">💡</span>
                   </div>
                   <h3 className="font-semibold text-white mb-2">Wellness Tips</h3>
-                  <p className="text-green-100 text-sm">Expert advice and healthy lifestyle content</p>
+                  <p className="text-green-100 text-sm">Expert advice from nutritionists as well as healthy lifestyle content</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">

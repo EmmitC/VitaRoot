@@ -13,19 +13,20 @@ const products = [
     originalPrice: "$29.99",
     rating: 4.9,
     reviews: 127,
-    image: "https://images.unsplash.com/photo-1748337589357-fecb77a9be20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwZGV0b3glMjBncmVlbiUyMGp1aWNlJTIwYm90dGxlfGVufDF8fHx8MTc1OTc3NTEzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    benefits: ["Liver Cleanse", "Energy Boost", "Anti-Inflammatory"],
+    image: "./green_vitality.jpg",
+    benefits: ["Detoxification", "Energy Boost", "Rich in Antioxidants"],
+    isBestseller: true,
     isPopular: true
   },
   {
     id: 2,
-    name: "Immunity Power Blend",
-    category: "Wellness",
+    name: "Citrus Charge Blend",
+    category: "Energy",
     price: "$19.99",
     originalPrice: "$24.99",
     rating: 4.8,
     reviews: 89,
-    image: "https://images.unsplash.com/photo-1623870605211-13ff5216a701?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwaGVhbHRoJTIwZHJpbmtzJTIwYm90dGxlc3xlbnwxfHx8fDE3NTk3NzUxMzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "./citrus_charge.jpg",
     benefits: ["Immune Support", "Antioxidants", "Natural Vitamins"],
     isNew: true
   },
@@ -37,7 +38,7 @@ const products = [
     originalPrice: "$27.99",
     rating: 4.9,
     reviews: 156,
-    image: "https://images.unsplash.com/photo-1605606437828-598340dfaeb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwc21vb3RoaWUlMjBsaWZlc3R5bGUlMjB3ZWxsbmVzc3xlbnwxfHx8fDE3NTk3NzUxMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "",
     benefits: ["Sustained Energy", "Protein Rich", "Mental Clarity"]
   },
   {
@@ -48,10 +49,23 @@ const products = [
     originalPrice: "$120.00",
     rating: 4.9,
     reviews: 203,
-    image: "https://images.unsplash.com/photo-1650960129664-d7adcf7e3dcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMG9yZ2FuaWMlMjB2ZWdldGFibGVzJTIwZnJ1aXRzfGVufDF8fHx8MTc1OTc3NTEzNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "",
     benefits: ["Complete Detox", "7-Day Program", "Nutritionist Guide"],
     isBestseller: true
   }
+  // {
+  //   id:5,
+  //   name:,
+  //   category:,
+  //   price:,
+  //   originalPrice:,
+  //   rating:,
+  //   reviews:,
+  //   image:"",
+  //   benefits:,
+  //   isBestseller:false
+  // }
+
 ];
 
 export function ProductShowcase() {

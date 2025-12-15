@@ -7,7 +7,7 @@ const testimonials = [
     id: 1,
     name: "Sarah Johnson",
     role: "Yoga Instructor",
-    avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b97c?w=150",
+    avatar: "",
     rating: 5,
     content: "VitaRoot has completely transformed my energy levels. The Green Vitality Detox is now part of my daily routine, and I feel more vibrant than ever!",
     highlight: "Transformed my energy levels"
@@ -16,7 +16,7 @@ const testimonials = [
     id: 2,
     name: "Marcus Chen",
     role: "Fitness Coach",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    avatar: "",
     rating: 5,
     content: "As a fitness professional, I'm very selective about what I put in my body. These products deliver on quality and results. My clients love them too!",
     highlight: "Quality and results"
@@ -25,7 +25,7 @@ const testimonials = [
     id: 3,
     name: "Emma Rodriguez",
     role: "Wellness Blogger",
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+    avatar: "",
     rating: 5,
     content: "The Immunity Power Blend helped me through cold season without getting sick once. The taste is amazing and the ingredients are top-notch.",
     highlight: "Stayed healthy all season"
@@ -34,7 +34,7 @@ const testimonials = [
     id: 4,
     name: "David Park",
     role: "Busy Executive",
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+    avatar: "",
     rating: 5,
     content: "With my hectic schedule, VitaRoot gives me the sustained energy I need without the crash. The convenience and quality are unmatched.",
     highlight: "Sustained energy without crash"
@@ -43,7 +43,7 @@ const testimonials = [
     id: 5,
     name: "Lisa Thompson",
     role: "Nutritionist",
-    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+    avatar: "",
     rating: 5,
     content: "I recommend VitaRoot to all my clients. The ingredient quality and nutritional profiles are exactly what I look for in premium wellness products.",
     highlight: "Recommend to all clients"
@@ -52,7 +52,7 @@ const testimonials = [
     id: 6,
     name: "James Wilson",
     role: "Marathon Runner",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+    avatar: "",
     rating: 5,
     content: "Recovery time has improved significantly since incorporating these into my training regimen. Natural ingredients that actually work!",
     highlight: "Improved recovery time"
